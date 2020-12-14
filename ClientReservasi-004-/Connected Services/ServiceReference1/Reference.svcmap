@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3c04b8f9-c846-47f0-b43c-34cac85f01da" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8800/ServiceReservasi" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceReservasi.xsd" MetadataType="Schema" ID="0b8967c7-2bdb-4875-9a66-fd0137c2d65a" SourceId="1" SourceUrl="http://localhost:8800/ServiceReservasi?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="1bc4e12e-ee86-446a-a2ff-56ed2fd9fc62" SourceId="1" SourceUrl="http://localhost:8800/ServiceReservasi?wsdl" />
+    <MetadataFile FileName="ServiceReservasi1.xsd" MetadataType="Schema" ID="2b36fe9f-0c94-40b4-ac28-1c9c78daa336" SourceId="1" SourceUrl="http://localhost:8800/ServiceReservasi?xsd=xsd2" />
+    <MetadataFile FileName="ServiceReservasi.disco" MetadataType="Disco" ID="80c88fc2-1032-4c94-ba6c-7599426c324e" SourceId="1" SourceUrl="http://localhost:8800/ServiceReservasi?disco" />
+    <MetadataFile FileName="ServiceReservasi2.xsd" MetadataType="Schema" ID="c759cab0-ca3b-4ccc-aaf6-f53154d3803b" SourceId="1" SourceUrl="http://localhost:8800/ServiceReservasi?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
